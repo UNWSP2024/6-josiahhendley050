@@ -37,7 +37,6 @@ Main Module
     Display "Total Sales Tax: ", totalTax
 End Main
 #Program 3: Tax Rate
-
 def calcTaxes(totalSales):
     STATE_RATE = 0.05
     COUNTY_RATE = 0.025
