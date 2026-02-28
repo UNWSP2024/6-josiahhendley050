@@ -13,29 +13,30 @@
 #2/27/26
 #Tax Rate
 #PSEUDOCODE
-Function calcTaxes(totalSales)
-    Set STATE_RATE = 0.05
-    Set COUNTY_RATE = 0.025
+# Function calcTaxes(totalSales)
+#     Set STATE_RATE = 0.05
+#     Set COUNTY_RATE = 0.025
+#
+#     Set stateTax = totalSales * STATE_RATE
+#     Set countyTax = totalSales * COUNTY_RATE
+#     Set totalTax = stateTax + countyTax
+#
+#     Return stateTax, countyTax, totalTax
+# End Function
+#
+# Main Module
+#     Display "Enter total sales for the month:"
+#     Input monthlySales
+#
+#     Call calcTaxes(monthlySales)
+#         Return stateTax, countyTax, totalTax
+#
+#     Display "County Sales Tax: ", countyTax
+#     Display "State Sales Tax: ", stateTax
+#     Display "Total Sales Tax: ", totalTax
+# End Main
 
-    Set stateTax = totalSales * STATE_RATE
-    Set countyTax = totalSales * COUNTY_RATE
-    Set totalTax = stateTax + countyTax
 
-    Return stateTax, countyTax, totalTax
-End Function
-
-
-Main Module
-    Display "Enter total sales for the month:"
-    Input monthlySales
-
-    Call calcTaxes(monthlySales)
-        Return stateTax, countyTax, totalTax
-
-    Display "County Sales Tax: ", countyTax
-    Display "State Sales Tax: ", stateTax
-    Display "Total Sales Tax: ", totalTax
-End Main
 #Program 3: Tax Rate
 def calcTaxes(totalSales):
     STATE_RATE = 0.05
